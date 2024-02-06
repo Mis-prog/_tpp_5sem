@@ -4,14 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define N int(1e8) // Total threads
+#define N 300000000 // Total threads
 #define M 1024 // Threads per block
 
 // Host - PC
 // Device - GPU
 
 void random_floats(float *x, int n, bool printRes);
-bool check_results(float *x, float *y, float *z, int n);
+void check_results(float *x, float *y, float *z, int n);
 
 __global__ void add(float *a, float *b, float *c)
 {
@@ -94,7 +94,10 @@ int main(void)
 	cudaFree(b1);
 	cudaFree(c1);
 	
-	printf("check result: %s\n",check_results(a, b, c, N) ? "true" : "false");
+	if (printResults)
+	{
+		check_results(a, b, c, N);
+	}
 	
 	// Cleanup
 	cudaFree(a);
@@ -129,13 +132,21 @@ void random_floats(float *x, int n, bool printValues)
 	}
 } 
 
-bool check_results(float *x, float *y, float *z, int n)
+void check_results(float *x, float *y, float *z, int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		if ((x[i]+y[i])!=z[i]){
-			return false;
+		printf("%d", i);
+		if (abs(x[i] + y[i] - z[i]) < 0.001)
+		{
+			printf("abs(%f + %f - %f) = %f\n", x[i], y[i], z[i], x[i]+y[i]-z[i]);
+			printf("Valid result\n");
+		}
+		else
+		{
+			printf("abs(%f + %f - %f) != %f\n", x[i], y[i], z[i], x[i]+y[i]-z[i]);
+			printf("Invalid result\n");
 		}
 	}
-	return true;
 }
+
