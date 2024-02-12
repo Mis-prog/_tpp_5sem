@@ -4,11 +4,13 @@
 #include "windows.h"
 #include "multiplication_matrix.h"
 
-#define N 100
+#define N 5
+#define count_define 4
 
 double FirstMatrix[N][N];
 double SecondMatrix[N][N];
 double Product[N][N];
+
 
 int main() {
 	SetConsoleOutputCP(CP_UTF8);
@@ -39,7 +41,7 @@ int main() {
 
     start_time = omp_get_wtime();
     for (int p = 0; p < q; p++) {
-	#pragma omp parallel for num_threads(4)
+	#pragma omp parallel for num_threads(count_define)
         for (int i = 0; i < N; i++)
             for (int j = 0; j < N; j++) {
                 Product[i][j] = 0;
@@ -58,7 +60,7 @@ int main() {
     start_time = omp_get_wtime();
     for (int l = 0; l < q; l++) {
         for (int i = 0; i < N; i++){
-    #pragma omp parallel for num_threads(4)
+    #pragma omp parallel for num_threads(count_define)
             for (int j = 0; j < N; j++) {
                 Product[i][j] = 0;
                	for (int k = 0; k < N; k++) 
@@ -81,7 +83,7 @@ int main() {
             {
                 Product[i][j] = 0;
                 double sum = 0.0;
-    #pragma omp parallel for reduction(+: sum) num_threads(4)
+    #pragma omp parallel for reduction(+: sum) num_threads(count_define)
                     for (int k = 0; k < N; k++){
                         sum += FirstMatrix[i][k] * SecondMatrix[k][j];
 					}
