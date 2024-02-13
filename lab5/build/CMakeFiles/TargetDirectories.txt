@@ -1,0 +1,4 @@
+/home/student/_tpp_5sem/lab5/build/CMakeFiles/add.dir
+/home/student/_tpp_5sem/lab5/build/CMakeFiles/add2.dir
+/home/student/_tpp_5sem/lab5/build/CMakeFiles/edit_cache.dir
+/home/student/_tpp_5sem/lab5/build/CMakeFiles/rebuild_cache.dir

@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define N 300000000 // Total threads
+
+#define N 100000 // Total threads
 #define M 1024 // Threads per block
 
 // Host - PC
@@ -49,7 +50,7 @@ int main(void)
 	cudaEventRecord(stopHTD, 0);
 	cudaEventSynchronize(stopHTD);
 	cudaEventElapsedTime(&timeHTD, startHTD, stopHTD);
-	printf("Elapsed time from Host to Device: %.3f ms\n", timeHTD);
+	printf("Время передачи данных с HOST на GPU: %.3f ms\n", timeHTD);
 	cudaEventDestroy(startHTD);
 	cudaEventDestroy(stopHTD);	
 	
@@ -69,7 +70,7 @@ int main(void)
 	cudaEventRecord(stop, 0);
 	cudaEventSynchronize(stop);
 	cudaEventElapsedTime(&time, start, stop);
-	printf("Elapsed time : %.3f ms\n", time);
+	printf("Время выполнения : %.3f ms\n", time);
 	cudaEventDestroy(start);
 	cudaEventDestroy(stop);
 	// timings
@@ -86,7 +87,7 @@ int main(void)
 	cudaEventRecord(stopDTH, 0);
 	cudaEventSynchronize(stopDTH);
 	cudaEventElapsedTime(&timeDTH, startDTH, stopDTH);
-	printf("Elapsed time from Device to Host: %.3f ms\n", timeDTH);
+	printf("Время передачи данных с GPU на HOST: %.3f ms\n", timeDTH);
 	cudaEventDestroy(startDTH);
 	cudaEventDestroy(stopDTH);
 	

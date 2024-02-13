@@ -76,7 +76,7 @@ int main()
        cudaEventSynchronize(stop);
        cudaEventElapsedTime(&time, start, stop);
 
-       printf("Elapsed time CUDA : %.7f ms ,for thread: %d\n", time, N);
+       printf("Время выполнения: %.7f ms ,for thread: %d\n", time, N);
        cudaEventDestroy(start);
        cudaEventDestroy(stop);
 

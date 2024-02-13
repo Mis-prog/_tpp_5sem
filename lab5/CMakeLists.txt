@@ -10,6 +10,6 @@ enable_language(CUDA)
 
 add_executable(add  src/add.cu)
 
-target_compile_definitions(add PRIVATE -DDEBUG)
+# target_compile_definitions(add PRIVATE -DDEBUG)
 
 add_executable(add2 src/add2.cu)
