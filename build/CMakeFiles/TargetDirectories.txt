@@ -1,0 +1,7 @@
+/home/student/_tpp_5sem/build/CMakeFiles/edit_cache.dir
+/home/student/_tpp_5sem/build/CMakeFiles/rebuild_cache.dir
+/home/student/_tpp_5sem/build/src/CMakeFiles/task1.dir
+/home/student/_tpp_5sem/build/src/CMakeFiles/task2.dir
+/home/student/_tpp_5sem/build/src/CMakeFiles/task3.dir
+/home/student/_tpp_5sem/build/src/CMakeFiles/edit_cache.dir
+/home/student/_tpp_5sem/build/src/CMakeFiles/rebuild_cache.dir
