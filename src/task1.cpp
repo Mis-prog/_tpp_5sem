@@ -36,7 +36,7 @@ int main()
             for (int j = 0; j < n; j++)
             {
                 sum = 0;
-#pragma omp parallel for reduction(+ : sum) num_threads(4)
+ #pragma omp parallel for reduction(+ : sum) num_threads(4)
                 for (int k = 0; k < n; k++)
                 {
                     sum += matrix1[i * n + k] * matrix2[j + n * k];

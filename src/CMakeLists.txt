@@ -9,7 +9,7 @@ target_link_libraries(task1 PRIVATE OpenMP::OpenMP_CXX)
 
 
 if (CMAKE_CUDA_COMPILER)
-    # message("cuda compliller")
+    message("cuda compliller")
     set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -arch=sm_50")
     enable_language(CUDA)
     add_executable(task2 task2.cu)

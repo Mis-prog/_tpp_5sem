@@ -3,8 +3,8 @@
 
 src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/stdc-predef.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_runtime.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/host_config.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_runtime.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/host_config.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -13,11 +13,11 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/builtin_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/host_defines.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/driver_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/builtin_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/device_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/host_defines.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/driver_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/vector_types.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -30,12 +30,12 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/surface_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/texture_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/library_types.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/channel_descriptor.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_runtime_api.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_device_runtime_api.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/surface_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/texture_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/library_types.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/channel_descriptor.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_runtime_api.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_device_runtime_api.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -78,10 +78,10 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/driver_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/common_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/driver_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/vector_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/vector_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/common_functions.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/time.h \
@@ -102,7 +102,7 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/assert.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/math_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/math_functions.h \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -146,39 +146,39 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/math_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_atomic_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_atomic_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_double_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_double_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_atomic_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_atomic_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_atomic_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_atomic_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_35_atomic_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_60_atomic_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_60_atomic_functions.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_intrinsics.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_intrinsics.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_30_intrinsics.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_30_intrinsics.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_intrinsics.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_intrinsics.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_35_intrinsics.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_61_intrinsics.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_61_intrinsics.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_70_rt.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_70_rt.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_80_rt.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_80_rt.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_90_rt.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_90_rt.hpp \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/texture_indirect_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/surface_indirect_functions.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/cudacc_ext.h \
-  /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_launch_parameters.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/math_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/device_atomic_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/device_atomic_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_double_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_double_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_atomic_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_atomic_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_atomic_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_atomic_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_35_atomic_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_60_atomic_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_60_atomic_functions.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_intrinsics.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_intrinsics.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_30_intrinsics.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_30_intrinsics.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_intrinsics.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_intrinsics.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_35_intrinsics.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_61_intrinsics.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/sm_61_intrinsics.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_70_rt.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_70_rt.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_80_rt.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_80_rt.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_90_rt.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_90_rt.hpp \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/texture_indirect_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/surface_indirect_functions.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/crt/cudacc_ext.h \
+  /usr/local/cuda-12.0/targets/x86_64-linux/include/device_launch_parameters.h \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/initializer_list \
@@ -281,11 +281,11 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/bits/ostream.tcc:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
@@ -297,11 +297,13 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/bits/concept_check.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_device_runtime_api.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_functions.h:
 
 /usr/include/c++/11/type_traits:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+/usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
 /usr/include/c++/11/initializer_list:
 
@@ -309,15 +311,17 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/math_functions.h:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/builtin_types.h:
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/math_functions.h:
+
+/usr/include/c++/11/iostream:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/channel_descriptor.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -331,6 +335,8 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_60_atomic_functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -341,9 +347,19 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/cwchar:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -351,27 +367,25 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_functions.h:
+/usr/include/c++/11/bits/basic_ios.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/basic_string.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
 /usr/include/c++/11/bits/stl_pair.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/common_functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/c++/11/bits/exception.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/library_types.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -381,6 +395,8 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_runtime.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
@@ -389,57 +405,35 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/ext/string_conversions.h:
 
+/usr/include/c++/11/iosfwd:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_90_rt.h:
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/driver_types.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/vector_functions.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_61_intrinsics.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/host_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/math_functions.hpp:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/host_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/host_config.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/string:
+/usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/11/ios:
 
@@ -447,63 +441,71 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/string.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_device_runtime_api.h:
+
+/usr/include/features-time64.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/device_types.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/builtin_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/surface_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/library_types.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/host_config.h:
 
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_atomic_functions.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/cuda_runtime_api.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/math_functions.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/pthread.h:
-
 /usr/include/c++/11/bits/move.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+/usr/include/pthread.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/home/student/_tpp_5sem/src/task2.cu:
-
-/usr/include/c++/11/backward/binders.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/common_functions.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/texture_types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/driver_functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/cudacc_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/texture_types.h:
+/usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/include/c++/11/bits/stl_function.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/surface_types.h:
 
-/usr/include/assert.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/math.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/channel_descriptor.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_runtime_api.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -511,9 +513,15 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/cmath:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_90_rt.h:
+
+/usr/include/limits.h:
+
 /usr/include/c++/11/cerrno:
 
 /usr/include/strings.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_atomic_functions.hpp:
 
 /usr/include/c++/11/math.h:
 
@@ -528,6 +536,8 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
@@ -547,17 +557,11 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/bits/exception_defines.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_types.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/11/cstdint:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_functions.hpp:
 
 /usr/include/alloca.h:
 
@@ -565,13 +569,9 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/stdlib.h:
 
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_atomic_functions.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_80_rt.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -579,13 +579,9 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_60_atomic_functions.hpp:
+/usr/include/c++/11/new:
 
 /usr/include/stdc-predef.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/cudacc_ext.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_launch_parameters.h:
 
 /usr/include/c++/11/cwctype:
 
@@ -595,13 +591,9 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/device_atomic_functions.h:
+
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/cuda_runtime.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/driver_functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -609,11 +601,13 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/ctype.h:
 
+/usr/include/assert.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/vector_types.h:
+
+/usr/include/math.h:
+
 /usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_double_functions.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -621,11 +615,25 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/c++/11/debug/debug.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/vector_types.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_30_intrinsics.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_60_atomic_functions.hpp:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_70_rt.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/string:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
@@ -635,15 +643,15 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/driver_types.h:
+
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_90_rt.hpp:
+
 /usr/include/c++/11/bits/charconv.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
@@ -651,91 +659,71 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_functions.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/device_launch_parameters.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/c++/11/cstdint:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_functions.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/device_atomic_functions.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/device_atomic_functions.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_double_functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_double_functions.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_atomic_functions.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_atomic_functions.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/device_double_functions.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_atomic_functions.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_atomic_functions.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_atomic_functions.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_atomic_functions.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_35_atomic_functions.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/vector_functions.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_60_atomic_functions.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_35_atomic_functions.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_intrinsics.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_intrinsics.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_20_intrinsics.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_70_rt.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_20_intrinsics.hpp:
+/usr/include/c++/11/bits/exception_ptr.h:
 
-/usr/include/c++/11/new:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_30_intrinsics.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_30_intrinsics.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_intrinsics.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_30_intrinsics.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_35_intrinsics.h:
 
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_61_intrinsics.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_intrinsics.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_61_intrinsics.hpp:
 
-/usr/include/c++/11/bits/basic_ios.tcc:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_70_rt.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/device_functions.hpp:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_32_intrinsics.hpp:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/crt/sm_80_rt.hpp:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/texture_indirect_functions.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_35_intrinsics.h:
+/usr/include/c++/11/clocale:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/sm_61_intrinsics.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_70_rt.hpp:
+/home/student/_tpp_5sem/src/task2.cu:
 
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_80_rt.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_80_rt.hpp:
-
-/usr/include/limits.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/crt/sm_90_rt.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/texture_indirect_functions.h:
-
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.9/cuda/12.2/include/surface_indirect_functions.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/ostream:
+/usr/local/cuda-12.0/targets/x86_64-linux/include/surface_indirect_functions.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/11/ostream:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/postypes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -773,8 +761,6 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/c++/11/clocale:
-
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -785,6 +771,8 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/ext/atomicity.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
@@ -793,9 +781,23 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 
 /usr/include/c++/11/ext/new_allocator.h:
 
+/usr/local/cuda-12.0/targets/x86_64-linux/include/sm_32_intrinsics.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/linux/errno.h:
+
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -810,8 +812,6 @@ src/CMakeFiles/task2.dir/task2.cu.o: /home/student/_tpp_5sem/src/task2.cu \
 /usr/include/errno.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 

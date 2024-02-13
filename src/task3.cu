@@ -1,7 +1,7 @@
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
-constexpr int N = 1024;
+constexpr int N = 256;
 constexpr int BS = 32;
 
 constexpr int BLOCK_SIZE = 32;
@@ -135,7 +135,11 @@ int main()
 	cudaEventSynchronize(stop);
 	cudaEventElapsedTime(&time, start, stop);
 
+
+	double _time=0;
+
 	printf("Memory copy time: %.10f ms\n", time);
+	_time+=time;
 	cudaEventDestroy(start);
 	cudaEventDestroy(stop);
 
@@ -143,9 +147,9 @@ int main()
 	cudaEventCreate(&stop);
 	cudaEventRecord(start, 0);
 
-	mul_transp_shared_1 <<<blocks, threads>>> (d_a, d_c, N);
+	//mul_transp_shared_1 <<<blocks, threads>>> (d_a, d_c, N);
 	//mul_transp_shared_2 <<<blocks, threads>>>(d_a, d_c, N);
-	//mul_transp_shared_3 <<<blocks, threads>>> (d_a, d_c, N);
+	mul_transp_shared_3 <<<blocks, threads>>> (d_a, d_c, N);
 	cudaDeviceSynchronize();
 
 	cudaEventRecord(stop, 0);
@@ -153,15 +157,16 @@ int main()
 	cudaEventElapsedTime(&time, start, stop);
 
 	printf("Computing time : %.10f ms\n", time);
+	_time+=time;
 	cudaEventDestroy(start);
 	cudaEventDestroy(stop);
 
 	cudaMemcpy(c, d_c, size, cudaMemcpyDeviceToHost);
 	cudaError_t error = cudaGetLastError();
-	// if (error != cudaSuccess)
-	// {
-	// 	std::cout << "Cuda error: " << cudaGetErrorString(error) << std::endl;
-	// }
+	if (error != cudaSuccess)
+	{
+		std::cout << "Cuda error: " << cudaGetErrorString(error) << std::endl;
+	}
 
 	for (int i = 0; i < N; i++)
 	{
@@ -170,6 +175,7 @@ int main()
 			norma += c[N * i + j] * c[N * i + j];
 		}
 	}
+	std::cout << "sum time = " << _time << std::endl;
 	std::cout << "norma = " << sqrt(norma) << std::endl;
 
 	cudaFree(d_a);

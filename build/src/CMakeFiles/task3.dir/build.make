@@ -73,7 +73,7 @@ src/CMakeFiles/task3.dir/task3.cu.o: src/CMakeFiles/task3.dir/flags.make
 src/CMakeFiles/task3.dir/task3.cu.o: /home/student/_tpp_5sem/src/task3.cu
 src/CMakeFiles/task3.dir/task3.cu.o: src/CMakeFiles/task3.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/_tpp_5sem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object src/CMakeFiles/task3.dir/task3.cu.o"
-	cd /home/student/_tpp_5sem/build/src && /opt/nvidia/hpc_sdk/Linux_x86_64/23.9/compilers/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/task3.dir/task3.cu.o -MF CMakeFiles/task3.dir/task3.cu.o.d -x cu -c /home/student/_tpp_5sem/src/task3.cu -o CMakeFiles/task3.dir/task3.cu.o
+	cd /home/student/_tpp_5sem/build/src && /usr/local/cuda-12.0/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/task3.dir/task3.cu.o -MF CMakeFiles/task3.dir/task3.cu.o.d -x cu -c /home/student/_tpp_5sem/src/task3.cu -o CMakeFiles/task3.dir/task3.cu.o
 
 src/CMakeFiles/task3.dir/task3.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/task3.dir/task3.cu.i"
