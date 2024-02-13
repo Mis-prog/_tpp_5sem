@@ -4,8 +4,9 @@
 #include "windows.h"
 #include "multiplication_matrix.h"
 
-#define N 5
-#define count_define 4
+#define N 100
+
+double sum_time_process=0.0;
 
 double FirstMatrix[N][N];
 double SecondMatrix[N][N];
@@ -41,7 +42,7 @@ int main() {
 
     start_time = omp_get_wtime();
     for (int p = 0; p < q; p++) {
-	#pragma omp parallel for num_threads(count_define)
+	#pragma omp parallel for num_threads(4)
         for (int i = 0; i < N; i++)
             for (int j = 0; j < N; j++) {
                 Product[i][j] = 0;
@@ -60,7 +61,7 @@ int main() {
     start_time = omp_get_wtime();
     for (int l = 0; l < q; l++) {
         for (int i = 0; i < N; i++){
-    #pragma omp parallel for num_threads(count_define)
+    #pragma omp parallel for num_threads(4)
             for (int j = 0; j < N; j++) {
                 Product[i][j] = 0;
                	for (int k = 0; k < N; k++) 
@@ -83,7 +84,7 @@ int main() {
             {
                 Product[i][j] = 0;
                 double sum = 0.0;
-    #pragma omp parallel for reduction(+: sum) num_threads(count_define)
+    #pragma omp parallel for reduction(+: sum) num_threads(4)
                     for (int k = 0; k < N; k++){
                         sum += FirstMatrix[i][k] * SecondMatrix[k][j];
 					}
@@ -97,6 +98,8 @@ int main() {
     norm(Euclid);
     std::cout << "Третий алгоритм" << std::endl;
     print(Euclid,end_time,start_time);
+
+    std:: cout << "sum time: " << sum_time_process << std :: endl;
 
 	return 0;
 }
@@ -120,7 +123,9 @@ void norm(double &Euclid)
 }
 void print(double Euclid, double end_time, double start_time)
 {
+    double _time=end_time - start_time;
+    sum_time_process+=_time;
     std::cout << "Норма:" << Euclid << std::endl;
-    std::cout << "Время: " << end_time - start_time << std::endl;
+    std::cout << "Время: " << _time << std::endl;
     std::cout << std::endl;
 }
