@@ -4,7 +4,7 @@
 
 #define _USE_MATH_DEFINES
 
-const long long int N = 1e9;
+const long long int N = 150000000;
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
         sum += (pow(i, (1.0 / 3)) / ((i + 1) * sqrt(i)));
     }
     double end_time = clock();
-    printf("HOST sum: %f, time: %f\n", sum, end_time - start_time);
+    printf("HOST sum: %f, time: %f\n", sum, (end_time - start_time)/CLOCKS_PER_SEC);
 
     start_time = 0;
     end_time = 0;
@@ -29,7 +29,7 @@ int main()
     }
     end_time = clock();
 
-    printf("GPU sum: %f, time: %f\n", sum, end_time - start_time);
+    printf("GPU sum: %f, time: %f\n", sum, (end_time - start_time)/CLOCKS_PER_SEC);
 
     return 0;
 }
