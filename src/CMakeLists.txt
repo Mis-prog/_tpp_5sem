@@ -6,7 +6,11 @@ find_package(OpenMP REQUIRED)
 
 add_executable(multiplication_matrix multiplication_matrix.cpp)
 
-target_link_libraries(multiplication_matrix PRIVATE OpenMP::OpenMP_CXX)
+target_link_libraries(
+        multiplication_matrix
+        PRIVATE
+        OpenMP::OpenMP_CXX
+)
 
 set_target_properties(
         multiplication_matrix PROPERTIES

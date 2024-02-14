@@ -4,7 +4,7 @@
 #include "windows.h"
 #include "multiplication_matrix.h"
 
-#define N 100
+#define N 10
 
 double sum_time_process=0.0;
 
@@ -109,8 +109,8 @@ void set_rand_matrix()
     {
         for (int j = 0; j < N; j++)
         {
-            FirstMatrix[i][j] = (rand() % 10) / 10.0 - 0.5;
-            SecondMatrix[i][j] = (rand() % 10) / 10.0 - 0.5;
+            FirstMatrix[i][j] = (rand() % 256) / 256.0 - 0.5;
+            SecondMatrix[i][j] = (rand() % 256) / 256.0 - 0.5;
         }
     }
 }
