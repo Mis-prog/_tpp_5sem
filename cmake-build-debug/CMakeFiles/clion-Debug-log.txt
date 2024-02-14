@@ -1,1 +1,0 @@
-CMakeLists.txt not found in D:\PM57\akmurzin\_tpp_5sem Select CMakeLists.txt
