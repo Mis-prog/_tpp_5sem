@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/student/_tpp_5sem/build",
+  "command": "/usr/bin/g++  -O2 -g -fopenmp -o src/CMakeFiles/task1.dir/task1.cpp.o -c /home/student/_tpp_5sem/src/task1.cpp",
+  "file": "/home/student/_tpp_5sem/src/task1.cpp"
+},
+{
+  "directory": "/home/student/_tpp_5sem/build",
+  "command": "/usr/local/cuda-12.0/bin/nvcc -forward-unknown-to-host-compiler  -arch=sm_50 -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -x cu -c /home/student/_tpp_5sem/src/task2.cu -o src/CMakeFiles/task2.dir/task2.cu.o",
+  "file": "/home/student/_tpp_5sem/src/task2.cu"
+},
+{
+  "directory": "/home/student/_tpp_5sem/build",
+  "command": "/usr/local/cuda-12.0/bin/nvcc -forward-unknown-to-host-compiler  -arch=sm_50 -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -x cu -c /home/student/_tpp_5sem/src/task3.cu -o src/CMakeFiles/task3.dir/task3.cu.o",
+  "file": "/home/student/_tpp_5sem/src/task3.cu"
+}
+]

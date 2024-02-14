@@ -6,7 +6,7 @@
 #include <omp.h>
 #define n 256
 
-using namespace std;
+using namespace std;    
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
     }
 
     double sum = 0;
-    double start_time = omp_get_wtime();
+    double start_time = omp_get_wtime(); 
 
     for (int count = 0; count < q; count++)
     {
@@ -36,9 +36,9 @@ int main()
             for (int j = 0; j < n; j++)
             {
                 sum = 0;
- #pragma omp parallel for reduction(+ : sum) num_threads(4)
+  #pragma omp parallel for reduction(+ : sum) num_threads(4)
                 for (int k = 0; k < n; k++)
-                {
+                { 
                     sum += matrix1[i * n + k] * matrix2[j + n * k];
                 }
                 matrix3[i * n + j] = sum;
@@ -55,8 +55,8 @@ int main()
             result += matrix3[i * n + j] * matrix3[i * n + j];
         }
     }
-    double end_time = omp_get_wtime(); // конечное время
-    cout << "Program execution time = " << (end_time - start_time) << endl;
+    double end_time =omp_get_wtime(); 
+    cout << "Program execution time = " << (end_time - start_time)*1000 << endl;
     cout << "Norm = " << sqrt(result) << endl;
 
     free(matrix1);

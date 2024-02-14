@@ -1,7 +1,7 @@
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
-constexpr int N = 256;
+constexpr int N = 4096;
 constexpr int BS = 32;
 
 constexpr int BLOCK_SIZE = 32;
@@ -108,8 +108,8 @@ int main()
     cudaEventCreate(&stop);
     cudaEventRecord(start, 0);
 
-    mul_shared<<<blocks, threads>>>(d_a, d_b, d_c, N);
-    //  kernel <<<blocks, threads>>> (d_a, d_b, d_c, N);
+    // mul_shared<<<blocks, threads>>>(d_a, d_b, d_c, N);
+     kernel <<<blocks, threads>>> (d_a, d_b, d_c, N);
     cudaDeviceSynchronize();
 
     cudaEventRecord(stop, 0);
