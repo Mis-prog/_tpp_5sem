@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const long long int N = 1e9;
+const long long int N = 1e10;
 
 int main() {
     double sum = 0;
